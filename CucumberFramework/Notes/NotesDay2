@@ -1,0 +1,37 @@
+Scenario Outline - Examples Table
+Background 
+---------  Cucumber Key words ------
+Feature:
+Scenario:
+Given
+And
+When
+Then
+But
+Scenario Outline:
+Examples:  Table
+Background
+ Tags - Not done
+
+Three components of Cucumber
+ - Feature file - We write testcases
+ - Runner - Joins which feature file and what step definition file - what to be executed and where to llok for implementation.
+ - Steps Definition - Selenium implements - BaseTest, BasePage and Pages.
+ --------------------
+ 
+DataTable, Other ways to take input
+
+
+Framework
+ - Write only one step for each type of action
+  - Sendkeys - user enter into text box "logicalName" "value"
+  - ButtonClick - user click on Button "logicalName" 
+  -	RadioButoon - user click on radioBtton "logicalName"
+  	
+  	Pages - We store elements & actions but Actions are move to the BasePage
+  	BasePage - should be extended by each page - created the storage location - HashMap - which holds logicalName and By Object
+  	Steps  - cucumber annotation of the scenario
+  		   -  Action for the corresponding step
+  		   	Actions are in the pages
+  	BaseTest - common actions like launching the application is present
+  	

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="test_suite">  
+<test name = "Group A">
+	<groups>
+		<run>
+			<include name="Group A"/>
+		
+		</run>
+	</groups>
+	
+	
+		<classes>
+			<class name="com.day2.group.MultipleGroupName"/>
+		</classes>
+	</test>
+	
+	
+	
+	<groups>
+		<run>
+			<include name="Group B"/>
+		
+		</run>
+	</groups>
+	
+	
+	<test name = "Group B">
+		<classes>
+			<class name="com.day2.group.MultipleGroupName"/>
+		</classes>
+	</test>
+	
+
+</suite>

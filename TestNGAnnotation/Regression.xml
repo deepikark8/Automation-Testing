@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Salesforce">
+   
+    
+    <groups>
+		<run>
+			<exclude name="regression"/>
+		
+		</run>
+	</groups>
+    
+    <parameter name="username" value="deepika@mh.com" />
+	<parameter name="password" value="password@123" />
+	
+	
+	 <test name="Login">
+         <classes>
+             <class name = "com.day2.groups.FirstClass"/>
+             <class name= "com.day2.groups.SecondClass"/>
+             
+          </classes>
+     </test> 
+</suite> 

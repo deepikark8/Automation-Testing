@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T01:20:11 PDT" name="Salesforce" finished-at="2023-03-30T01:36:40 PDT" duration-ms="988574">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T01:20:11 PDT" name="Login" finished-at="2023-03-30T01:36:40 PDT" duration-ms="988574">
+      <class name="com.training.testcases.LoginTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.training.testcases.LoginTest@7fc229ab]" started-at="2023-03-30T01:20:11 PDT" name="beforeMethod" finished-at="2023-03-30T01:36:38 PDT" duration-ms="987388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login()[pri:0, instance:com.training.testcases.LoginTest@7fc229ab]" started-at="2023-03-30T01:36:38 PDT" name="login" finished-at="2023-03-30T01:36:39 PDT" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@7fc229ab]" started-at="2023-03-30T01:36:39 PDT" name="teardown" finished-at="2023-03-30T01:36:40 PDT" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testcases.LoginTest -->
+    </test> <!-- Login -->
+  </suite> <!-- Salesforce -->
+</testng-results>

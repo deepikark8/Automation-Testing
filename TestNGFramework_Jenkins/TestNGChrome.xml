@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Salesforce">
+
+	<parameter name ="browser" value="chrome"/>
+	<parameter name="url" value="https://teka-dev-ed.develop.my.salesforce.com/" />
+	<parameter name="username" value="deepika@mh.com" />
+	<parameter name="password" value="password@123" /> 
+	
+	
+	<listeners>
+	<listener class-name = "com.training.listerners.TestListener"></listener>
+	</listeners>
+
+    <test name="Login">
+         <classes>
+         		<class name = "com.training.testcases.LoginTest"/>
+             <!--  <class name = "com.training.testcases.HomeTest"/>  -->
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->

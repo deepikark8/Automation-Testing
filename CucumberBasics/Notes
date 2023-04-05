@@ -1,0 +1,19 @@
+Click
+GetText
+DropDown
+getTitle
+Select
+SendKeys
+Alerts
+Switch to frame
+windows
+radio button
+check box
+
+						logicalname	  value
+User enter into text box "username" "deepika@mh.com"
+User enter into text box "password" "password@123"
+User clicks on Button "Login"
+User Click on checkbox "rememberme"
+
+

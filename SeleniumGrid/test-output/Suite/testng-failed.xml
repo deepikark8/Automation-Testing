@@ -3,11 +3,6 @@
 <suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="FirefoxTest">
-        <methods>
-          <include name="HomePageCheck"/>
-        </methods>
-      </class> <!-- FirefoxTest -->
       <class name="SafariTest">
         <methods>
           <include name="HomePageCheck"/>
